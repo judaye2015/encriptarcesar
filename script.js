@@ -141,7 +141,7 @@ function inicio()
 									tabla += '<th>'+indiceY.charAt(x-1)+'</th>';
 								}else{
 									if(text_cifrado.indexOf(alfa[x-1][y-1])>0){
-										tabla += '<td  bgcolor="#5D7B9D">'+alfa[x-1][y-1]+'</td>';
+										tabla += '<td  bgcolor="#24cdb2">'+alfa[x-1][y-1]+'</td>';
 									}else{
 										tabla += '<td >'+alfa[x-1][y-1]+'</td>';
 									}
@@ -290,7 +290,7 @@ function inicio()
 								tabla += '<th>'+indiceY.charAt(x-1)+'</th>';
 							}else{
 								if(texto.indexOf(alfa[x-1][y-1])>0){
-									tabla += '<td  bgcolor="#5D7B9D">'+alfa[x-1][y-1]+'</td>';
+									tabla += '<td  bgcolor="#24cdb2">'+alfa[x-1][y-1]+'</td>';
 								}else{
 									tabla += '<td>'+alfa[x-1][y-1]+'</td>';
 								}
