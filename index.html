@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<script type="text/javascript" src = "script.js"></script>
+    
+    
+	<title>Polybius_Permuta</title>
+</head>
+<body>
+	
+	<div class="contenedor">
+	
+	<h1>Polybius Permutación</h1>
+    <center>
+    <div class="input-group">
+		<select id = 'accion'>
+			<option value="1">Cifrar </option>
+			<option value="2">Descifrar </option>
+		</select></div></br>
+		<div class="input-group">
+		<label for="caja_2">Máximo 6 caracteres</label></br>
+		<input type = 'text' maxQlength="6" placeholder = "Digite Clave" id = 'caja_2' ></div></br>
+		<div class="input-group">
+		<label for="caja_3">No repetir caracteres (10)</label></br>
+		<input type = 'text' maxlength="10" placeholder = "Indice Columnas" id = 'caja_3' ></div></br>
+		<div class="input-group">
+		<label for="caja_4">No repetir caracteres (9)</label></br>
+		<input type = 'text' maxlength="9" placeholder = "Indice Filas" id = 'caja_4' ></div></br>
+		<div class="input-group">
+		<textarea rows="5" id = 'caja_1' placeholder = 'Digite texto a cifrar'></textarea></div>
+		<div id = 'tabla' class = 'esTabla'></div>
+		<label for="tabla2">Permutación</label></br>
+		<div id = 'tabla2' class = 'esTabla'></div>
+		
+		<div class="esTabla">
+		<p id = 'indicex'></p>
+		<p id = 'indicey'></p>
+		<div id = 'matriz' ></div>
+		</div>
+    </div>
+    </center>
+</body>
+</html>
